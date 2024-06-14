@@ -10,6 +10,10 @@ const BlogSchema = new Schema({
     type: String,
     required: true,
   },
+  imageLink: {
+    type: String,
+    default: "https://picsum.photos/1200/600",
+  },
   author: {
     type: String,
     required: true,
